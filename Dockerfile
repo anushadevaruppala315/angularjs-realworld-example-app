@@ -5,4 +5,4 @@ RUN npm install -f
 RUN npm run 
 
 FROM nginx:alpine
-COPY --from=node /app/dist/Angular /usr/share/nginx/html
+COPY --from=node /app/dist/angularjs-realworld-example-app /usr/share/nginx/html
